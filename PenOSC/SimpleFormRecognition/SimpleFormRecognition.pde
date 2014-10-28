@@ -4,23 +4,23 @@
  */
 
 // Test vars
-static boolean   TEST                   = false;
-static boolean   DRAW_DETECT_POINTS     = false;
+public static boolean   TEST                   = false;
+public static boolean   DRAW_DETECT_POINTS     = false;
 
 // Global P5 Modes
-static int       JAVA_MODE              = 1;
-static int       ANDROID_MODE           = 2;
-static int       MODE                   = ANDROID_MODE;
+public static int       JAVA_MODE              = 1;
+public static int       ANDROID_MODE           = 2;
+public static int       MODE                   = JAVA_MODE;
 
 // Mode Switching
-static int       DRAWING_MODE           = 1;
-static int       GESTURE_MODE           = 2;
+public static int       DRAWING_MODE           = 1;
+public static int       GESTURE_MODE           = 2;
 
 // Drawing vars
-static float     DRAWING_STROKE_WEIGHT  = (MODE == ANDROID_MODE) ? 4 : 1;
-static float     START_END_DIST         = 100;
-static float     DRAWING_MIN_SIZE       = 20;
-static float     ELLIPSE_DETECT_RATIO   = 70;
+public static float     DRAWING_STROKE_WEIGHT  = (MODE == ANDROID_MODE) ? 4 : 1;
+public static float     START_END_DIST         = 100;
+public static float     DRAWING_MIN_SIZE       = 20;
+public static float     ELLIPSE_DETECT_RATIO   = 70;
 
 int inputMode; 
 boolean isUserTouching;
