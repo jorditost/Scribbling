@@ -2,3 +2,6 @@ _[Dd]ocs
 _[Cc]ircuits
 AndroidManifest.xml
 sketch.properties
+
+#mac
+.DS_Store
